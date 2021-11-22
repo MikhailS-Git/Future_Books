@@ -1,0 +1,81 @@
+.bookPage {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-items: stretch;
+    background-color: #fff8;
+    border-radius: 10px;
+}
+
+.goBack-link {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.goBack-link:hover {
+    color: #333;
+}
+
+.bookPage-image {
+    flex-basis: 30%;
+    padding: 100px 30px;
+}
+
+.bookPage-content {
+    flex-basis: 70%;
+    padding: 30px;
+}
+
+.bookPage-image img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 200px;
+    height: auto;
+    box-shadow: 10px 10px 5px #0008;
+}
+
+.bp-c-category, .bp-c-author {
+    color: #333;
+    font-size: 18px;
+}
+
+.bp-c-title {
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.bp-c-desc {
+    margin-top: 30px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.bp-c-desc::first-letter {
+    margin-left: 30px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .bookPage {
+        display: block;
+    }
+
+    .bookPage-image {
+        padding: 100px 30px 30px 30px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    
+    .bookPage-image {
+        width: 100%;
+    }
+}

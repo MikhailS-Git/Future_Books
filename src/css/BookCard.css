@@ -1,0 +1,53 @@
+.bookPage-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+.bookCard {
+    flex-basis: 200px;
+    background-color: #fffc;
+    border-radius: 3px;
+}
+
+.book-image {
+    width: 70%;
+    height: 160px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+
+    box-shadow: 7px 7px 5px #0008;
+}
+
+.book-image img {
+    width: 100%;
+    height: 100%;   
+}
+
+.book-category {
+    margin-top: 15px;
+    height: 20px;
+    line-height: 20px;
+    color: #888;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.book-title {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.book-authors {
+    margin-top: 5px;
+    color: #888;
+    font-size: 14px;
+}
+

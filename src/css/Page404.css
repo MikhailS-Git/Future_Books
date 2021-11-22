@@ -1,0 +1,34 @@
+.page404 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000d;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page404 h1 {
+    
+    font-size: 15vh;
+    opacity: 0.1;
+    
+}
+
+.page404 h3 {
+    font-size: 2.5vw;
+}
+
+.go-back-link {
+    display: block;
+    margin-top: 50px;
+    padding: 10px 30px;
+    background-color: #0f0;
+    color: #000;
+    text-decoration: none;
+    border-radius: 10px;
+}

@@ -1,0 +1,15 @@
+.App {
+    background: linear-gradient(to top, #0008, #0008), url('../img/books.jpg');
+    background-repeat: repeat-y;
+    background-position: top left;
+    background-size: 100% auto;
+    min-height: 100vh;
+}
+
+button:hover, select:hover, input:hover {
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.95);
+}

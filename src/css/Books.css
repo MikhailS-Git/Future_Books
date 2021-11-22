@@ -1,0 +1,46 @@
+.books {
+    padding: 0 20px;
+}
+
+.books-total-number {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.books-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: center;
+    gap: 40px;
+}
+
+.pagination-button {
+    display: block;
+    margin: 40px auto;
+    padding: 10px 35px;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #8888;
+}
+
+.pagination-button:disabled:hover {
+    cursor: initial;
+}
+
+
+
+
+@media only screen and (max-width: 540px) {
+    .books-flex-container {
+        justify-content: center;
+    }
+}
